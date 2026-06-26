@@ -31,7 +31,7 @@ Official implementation for paper 'Perceive-then-Plan: Layout-as-Policy for Mono
 In this work, we formulate monocular 3D layout estimation as a perceive-then-plan problem with vision-language models, where a Perceiver first grounds the 3D objects and then a Planner iteratively refines the scene hypothesis through actions that improve physical plausibility while preserving consistency with the input image.
 
 ## Updates and TODOs
-- ✔️ 06/15/2025: Initialize the project page.
+- ✔️ 06/15/2026: Initialize the project page.
 - 🔲 TODO: The code will soon be released upon acceptance. Please stay tuned!
 
 
