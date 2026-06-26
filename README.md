@@ -1,5 +1,5 @@
 <div align="center">
-<img src="assets/93cc350bee4c4e43f38c9a078acdde29.png" width="680" alt="Teaser PTP" />
+<img src="assets/teaser.png" width="680" alt="Teaser PTP" />
 <h2>Perceive-then-Plan: Layout-as-Policy for Monocular 3D Scene Layout Estimation</h2>
 <!-- <p><b>ECCV 2026</b></p> -->
 <p>
@@ -29,9 +29,6 @@ Official implementation for paper 'Perceive-then-Plan: Layout-as-Policy for Mono
 
 In this work, we formulate monocular 3D layout estimation as a perceive-then-plan problem with vision-language models, where a Perceiver first grounds the 3D objects and then a Planner iteratively refines the scene hypothesis through actions that improve physical plausibility while preserving consistency with the input image.
 
-https://github.com/user-attachments/assets/6f4b36e1-c50d-436a-9241-bd0e700c809e
-
-
 ## Updates and TODOs
 - ✔️ 06/15/2025: Initialize the project page.
 - 🔲 TODO: The code will soon be released upon acceptance. Please stay tuned!
@@ -39,36 +36,54 @@ https://github.com/user-attachments/assets/6f4b36e1-c50d-436a-9241-bd0e700c809e
 
 ## Method 
 <p align="center">
-  <img src="assets/11fee07ae661ec3e0f6e4941ea41e31e.png" width="800" alt="Overall pipeline" />
+  <img src="assets/pipeline.png" width="800" alt="Overall pipeline" />
 </p>
 
 <p align="center">
-  GENA3D bridges the 2D amodal completion with 3D generation using deliberaely designed View-Wise Cross Attention and Stereo-Conditioned Cross Attention in the Sparse Structure Generation Stage, with synthesized sparse-view 3D consistent occlusions as training data.
-</p>
-
-<p align="center">
-  <img src="assets/308b495e4ed18e608a635ee2861486bb.png" width="540" alt="Module design" />
-</p>
-
-<p align="center">
-  A detailed illustration of our proposed ViewWise Cross Attention and Stereo-Conditioned Cross Attention modules.
+The Perceiver grounds 3D boxes from the input image. A canonicalized, grid-based representation is then iteratively refined by the LaP Planner, which treats each layout as a structured state and selects discrete actions (translate, rotate, rescale) via a learned policy until convergence. The final layout supports both scene assembly (digital twin) and camera-space projection (3D grounding).
 </p>
 
 ## Results
 <p align="center">
-  <img src="assets/4851b41a68ad377dfcef3a6ac9ad03a1.png" width="720" alt="Object-level" />
+  <img src="assets/app_perceiver.png" width="720" alt="perceiver" />
 </p>
 
 <p align="center">
-  Results on GSO object-level synthetic dataset.
+  3D grounding results produced by our Perceiver 8B.
 </p>
 
 <p align="center">
-  <img src="assets/d8797c493af58b11cb24b4fe7fa56e7e.png" width="580" alt="In-the-wild" />
+  <table>
+    <tr>
+      <td align="center">
+        <video src="https://github.com/Colezwhy/Perceive-then-Plan/edit/main/assets/example1.mp4"
+               poster="https://github.com/Colezwhy/Perceive-then-Plan/edit/main/assets/example1.png"
+               width="240" controls muted loop></video>
+      </td>
+      <td align="center">
+        <video src="https://github.com/Colezwhy/Perceive-then-Plan/edit/main/assets/example2.mp4"
+               poster="https://github.com/Colezwhy/Perceive-then-Plan/edit/main/assets/example2.png"
+               width="240" controls muted loop></video>
+      </td>
+      <td align="center">
+        <video src="https://github.com/Colezwhy/Perceive-then-Plan/edit/main/assets/example3.mp4"
+               poster="https://github.com/Colezwhy/Perceive-then-Plan/edit/main/assets/example3.png"
+               width="240" controls muted loop></video>
+      </td>
+    </tr>
+  </table>
 </p>
 
 <p align="center">
-  Results on in-the-wild real-world captures.
+  Demonstration of our Planner's action-based layout refinement.
+</p>
+
+<p align="center">
+  <img src="assets/more_vis.png" width="580" alt="Final results" />
+</p>
+
+<p align="center">
+  More 3D scene layouts estimated by our whole pipeline.
 </p>
 
 ## Citation
