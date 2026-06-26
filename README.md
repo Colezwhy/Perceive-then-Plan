@@ -1,3 +1,4 @@
+<div align="center">
 <h2>Perceive-then-Plan: Layout-as-Policy for Monocular 3D Scene Layout Estimation</h2>
 <!-- <p><b>ECCV 2026</b></p> -->
 <p>
@@ -23,6 +24,7 @@
 
 <div align="center">
 <img src="assets/teaser.png" width="680" alt="Teaser PTP" />
+</div>
 
 Official implementation for paper 'Perceive-then-Plan: Layout-as-Policy for Monocular 3D Scene Layout Estimation'.
 
@@ -55,18 +57,18 @@ The Perceiver grounds 3D boxes from the input image. A canonicalized, grid-based
   <table>
     <tr>
       <td align="center">
-        <video src="https://github.com/Colezwhy/Perceive-then-Plan/main/assets/example1.mp4"
-               poster="https://github.com/Colezwhy/Perceive-then-Plan/main/assets/example1.png"
+        <video src="https://github.com/Colezwhy/Perceive-then-Plan/raw/main/assets/example1.mp4"
+               poster="https://github.com/Colezwhy/Perceive-then-Plan/raw/main/assets/example1.png"
                width="240" controls muted loop></video>
       </td>
       <td align="center">
-        <video src="https://github.com/Colezwhy/Perceive-then-Plan/main/assets/example2.mp4"
-               poster="https://github.com/Colezwhy/Perceive-then-Plan/main/assets/example2.png"
+        <video src="https://github.com/Colezwhy/Perceive-then-Plan/raw/main/assets/example2.mp4"
+               poster="https://github.com/Colezwhy/Perceive-then-Plan/raw/main/assets/example2.png"
                width="240" controls muted loop></video>
       </td>
       <td align="center">
-        <video src="https://github.com/Colezwhy/Perceive-then-Plan/main/assets/example3.mp4"
-               poster="https://github.com/Colezwhy/Perceive-then-Plan/main/assets/example3.png"
+        <video src="https://github.com/Colezwhy/Perceive-then-Plan/raw/main/assets/example3.mp4"
+               poster="https://github.com/Colezwhy/Perceive-then-Plan/raw/main/assets/example3.png"
                width="240" controls muted loop></video>
       </td>
     </tr>
