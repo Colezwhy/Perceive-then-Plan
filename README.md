@@ -69,9 +69,6 @@ The Perceiver grounds 3D boxes from the input image. A canonicalized, grid-based
     </tr>
   </table>
 </div>
-<p align="center">
-  Demonstration of our Planner's action-based layout refinement.
-</p>
 
 <p align="center">
   Demonstration of our Planner's action-based layout refinement.
@@ -83,6 +80,14 @@ The Perceiver grounds 3D boxes from the input image. A canonicalized, grid-based
 
 <p align="center">
   More 3D scene layouts estimated by our whole pipeline.
+</p>
+
+<p align="center">
+  <img src="assets/sceneassemble.png" width="800" alt="SceneAssembly Results" />
+</p>
+
+<p align="center">
+  Scene Assembly Results, compared to SAM3D reconstructed scenes.
 </p>
 
 ## Citation
