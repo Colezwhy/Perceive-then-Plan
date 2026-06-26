@@ -56,21 +56,16 @@ The Perceiver grounds 3D boxes from the input image. A canonicalized, grid-based
 <div align="center">
   <table>
     <tr>
-      <td align="center">
-        <a href="https://github.com/Colezwhy/Perceive-then-Plan/raw/main/assets/videos/example1.mp4">
-          <img src="https://github.com/Colezwhy/Perceive-then-Plan/raw/main/assets/videos/example1.png" width="240">
-        </a>
-      </td>
-      <td align="center">
-        <a href="https://github.com/Colezwhy/Perceive-then-Plan/raw/main/assets/videos/example2.mp4">
-          <img src="https://github.com/Colezwhy/Perceive-then-Plan/raw/main/assets/videos/example2.png" width="240">
-        </a>
-      </td>
-      <td align="center">
-        <a href="https://github.com/Colezwhy/Perceive-then-Plan/raw/main/assets/videos/example3.mp4">
-          <img src="https://github.com/Colezwhy/Perceive-then-Plan/raw/main/assets/videos/example3.png" width="240">
-        </a>
-      </td>
+      <td align="center"><img src="https://github.com/Colezwhy/Perceive-then-Plan/raw/main/assets/example1.png" width="240"></td>
+      <td align="center"><img src="https://github.com/Colezwhy/Perceive-then-Plan/raw/main/assets/videos/example1.gif" width="240"></td>
+    </tr>
+    <tr>
+      <td align="center"><img src="https://github.com/Colezwhy/Perceive-then-Plan/raw/main/assets/example2.png" width="240"></td>
+      <td align="center"><img src="https://github.com/Colezwhy/Perceive-then-Plan/raw/main/assets/videos/example2.gif" width="240"></td>
+    </tr>
+    <tr>
+      <td align="center"><img src="https://github.com/Colezwhy/Perceive-then-Plan/raw/main/assets/example3.png" width="240"></td>
+      <td align="center"><img src="https://github.com/Colezwhy/Perceive-then-Plan/raw/main/assets/videos/example3.gif" width="240"></td>
     </tr>
   </table>
 </div>
