@@ -53,26 +53,29 @@ The Perceiver grounds 3D boxes from the input image. A canonicalized, grid-based
   3D grounding results produced by our Perceiver 8B.
 </p>
 
-<p align="center">
+<div align="center">
   <table>
     <tr>
       <td align="center">
-        <video src="https://github.com/Colezwhy/Perceive-then-Plan/raw/main/assets/example1.mp4"
-               poster="https://github.com/Colezwhy/Perceive-then-Plan/raw/main/assets/example1.png"
-               width="240" controls muted loop></video>
+        <a href="https://github.com/Colezwhy/Perceive-then-Plan/raw/main/assets/example1.mp4">
+          <img src="https://github.com/Colezwhy/Perceive-then-Plan/raw/main/assets/example1.png" width="240">
+        </a>
       </td>
       <td align="center">
-        <video src="https://github.com/Colezwhy/Perceive-then-Plan/raw/main/assets/example2.mp4"
-               poster="https://github.com/Colezwhy/Perceive-then-Plan/raw/main/assets/example2.png"
-               width="240" controls muted loop></video>
+        <a href="https://github.com/Colezwhy/Perceive-then-Plan/raw/main/assets/example2.mp4">
+          <img src="https://github.com/Colezwhy/Perceive-then-Plan/raw/main/assets/example2.png" width="240">
+        </a>
       </td>
       <td align="center">
-        <video src="https://github.com/Colezwhy/Perceive-then-Plan/raw/main/assets/example3.mp4"
-               poster="https://github.com/Colezwhy/Perceive-then-Plan/raw/main/assets/example3.png"
-               width="240" controls muted loop></video>
+        <a href="https://github.com/Colezwhy/Perceive-then-Plan/raw/main/assets/example3.mp4">
+          <img src="https://github.com/Colezwhy/Perceive-then-Plan/raw/main/assets/example3.png" width="240">
+        </a>
       </td>
     </tr>
   </table>
+</div>
+<p align="center">
+  Demonstration of our Planner's action-based layout refinement.
 </p>
 
 <p align="center">
