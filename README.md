@@ -1,5 +1,3 @@
-<div align="center">
-<img src="assets/teaser.png" width="680" alt="Teaser PTP" />
 <h2>Perceive-then-Plan: Layout-as-Policy for Monocular 3D Scene Layout Estimation</h2>
 <!-- <p><b>ECCV 2026</b></p> -->
 <p>
@@ -8,7 +6,6 @@
 </p>
 <p>Dartmouth College</p>
 </div>
-
 
 >**TL;DR**: <em> We propose a perceive-then-plan framework with two VLMs (Perceiver and LaP Planner) for monocular 3D layout estimation, enabling both visual alignment and physical plausibility.</em>
 
@@ -24,6 +21,8 @@
   </a>
 </p>
 
+<div align="center">
+<img src="assets/teaser.png" width="680" alt="Teaser PTP" />
 
 Official implementation for paper 'Perceive-then-Plan: Layout-as-Policy for Monocular 3D Scene Layout Estimation'.
 
@@ -56,18 +55,18 @@ The Perceiver grounds 3D boxes from the input image. A canonicalized, grid-based
   <table>
     <tr>
       <td align="center">
-        <video src="https://github.com/Colezwhy/Perceive-then-Plan/edit/main/assets/example1.mp4"
-               poster="https://github.com/Colezwhy/Perceive-then-Plan/edit/main/assets/example1.png"
+        <video src="https://github.com/Colezwhy/Perceive-then-Plan/main/assets/example1.mp4"
+               poster="https://github.com/Colezwhy/Perceive-then-Plan/main/assets/example1.png"
                width="240" controls muted loop></video>
       </td>
       <td align="center">
-        <video src="https://github.com/Colezwhy/Perceive-then-Plan/edit/main/assets/example2.mp4"
-               poster="https://github.com/Colezwhy/Perceive-then-Plan/edit/main/assets/example2.png"
+        <video src="https://github.com/Colezwhy/Perceive-then-Plan/main/assets/example2.mp4"
+               poster="https://github.com/Colezwhy/Perceive-then-Plan/main/assets/example2.png"
                width="240" controls muted loop></video>
       </td>
       <td align="center">
-        <video src="https://github.com/Colezwhy/Perceive-then-Plan/edit/main/assets/example3.mp4"
-               poster="https://github.com/Colezwhy/Perceive-then-Plan/edit/main/assets/example3.png"
+        <video src="https://github.com/Colezwhy/Perceive-then-Plan/main/assets/example3.mp4"
+               poster="https://github.com/Colezwhy/Perceive-then-Plan/main/assets/example3.png"
                width="240" controls muted loop></video>
       </td>
     </tr>
