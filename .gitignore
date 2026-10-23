@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.egg-info/
+.ipynb_checkpoints/
+wandb/
+
+# Stage 1 data, checkpoints and results
+perceiver/data/
+perceiver/output/
+perceiver/results/

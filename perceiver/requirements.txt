@@ -1,0 +1,14 @@
+# Tested with Python 3.10/3.12, CUDA 12.x.
+torch>=2.6
+torchvision
+transformers==4.57.1
+accelerate>=1.0
+deepspeed>=0.17.1
+einops
+huggingface_hub
+safetensors
+numpy
+pillow
+tqdm
+# Optional, recommended for training (otherwise pass ATTN=sdpa / --attn-implementation sdpa):
+# flash-attn>=2.7
